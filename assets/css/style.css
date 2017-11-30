@@ -1,0 +1,26 @@
+h1 {
+    color: teal;
+    border: solid;
+    background: orange;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 30x;
+    color: white;
+    background: indigo;
+    display: inline-block;
+}
+
+.container {
+    background: white;
+    color: red;
+    display: inline-block;
+}
+
+body {
+    background-image: url("https://www.geekireland.com/wp-content/uploads/2015/09/Croc-Coloured-Crystals.jpg");
+}
+
+
+
