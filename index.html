@@ -2,8 +2,12 @@
 
 <head>
     <title>Crystal Collector's Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
 </head>
 
@@ -14,47 +18,76 @@
             <p>Crystal Collector</p>
         </h1>
     </div>
+    <br>
 
     <div>
         <h2>
             <p>You will be given a random number generated at the start.</p>
             <p> Your goal is to reach the exact point value by hitting the 4 Crystals. </p>
-            <p>The 4 Crystals will have a random number assigned to them and the value changes with every new game.</p>
-            <p>If you go over the target score you lose and a anew game begins. </p>
+            <p>The 4 Crystals will have a random number assigned to them.
+                <p>The value changes with every new game.</p>
+                <p>If you go over the target score you lose and a new game begins. </p>
 
         </h2>
 
     </div>
 
-    <div class="container">
-        <div id="guessingNumber">
-            <h3>Number to Guess:
-                <span class="value"></span>
-            </h3>
+    <br>
+
+    <div class="scoreBox">
+        <div class="targetNumber">
+            <div id="goalNumber">
+                <h3>Goal Number:</h3>
+            </div>
         </div>
-
-        <div id="scoreboard">
-            <h3>
-                <span id="status"></span>
-            </h3>
-            <h3>Wins:
-                <span id="win"></span>
-            </h3>
-            <h3>Losses:
-                <span id="loss"></span>
-            </h3>
-        </div>
-
-        <div id="crystals"></div>
-
-        <div id="totalScore">
-            <h3>Your total score is:
-                <span id="yourScore">0</span>
-            </h3>
-        </div>
-
     </div>
 
 
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    <br>
+
+    <div class="btn">
+        <button type="button" class="btn" aria-label="Left Align" id="emerald" value="0">
+        </button>
+        <button type="button" class="btn" aria-label="Left Align" id="diamond" value="0">
+        </button>
+        <button type="button" class="btn" aria-label="Left Align" id="ruby" value="0">
+        </button>
+        <button type="button" class="btn" aria-label="Left Align" id="amethyst" value="0">
+        </button>
+
+
+    </div>
+
+    <br>
+
+    <div class="rowStart">
+        <div class="total"></div>
+        <div class="container">
+            <div class="result">
+                <h3>
+                    Wins:
+                    <div id="yourWins"></div>
+                    Losses:
+                    <div id="yourLosses"></div>
+                </h3>
+            </div>
+        </div>
+
+        <br>
+
+
+        <div class="container">
+            <div id="totalScore">
+                <h3>Your total score is:</h3>
+            </div>
+            <div class="addition"></div>
+        </div>
+
+
+
+
+
+
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>

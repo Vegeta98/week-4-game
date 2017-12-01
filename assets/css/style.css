@@ -3,10 +3,11 @@ h1 {
     border: solid;
     background: orange;
     display: inline-block;
+    font-size: 30px;
 }
 
 h2 {
-    font-size: 30x;
+    font-size: 30px;
     color: white;
     background: indigo;
     display: inline-block;
@@ -22,5 +23,52 @@ body {
     background-image: url("https://www.geekireland.com/wp-content/uploads/2015/09/Croc-Coloured-Crystals.jpg");
 }
 
+.result {
+    font-size: 30px;
+}
 
+#goalNumber {
+    font-size: 30px;
+}
 
+#totalScore {
+    font-size: 30px;
+}
+
+.numberToGuess {
+    display: inline-block;
+}
+
+.scoreBox {
+    background:darkblue;
+    color: gold;
+    display: inline-block;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 2px 2px rgb(32, 32, 32);
+}
+#emerald {
+    background-image: url("https://pre00.deviantart.net/81d9/th/pre/i/2012/060/7/e/green_rupee_by_oclero-d4rdkvx.png");
+    background-size: 100px;
+    background-position: center;
+}
+#diamond {
+    background-image: url("https://idiamondsjewelry.com/wp-content/uploads/2016/03/cropped-DiamondBlue-512.png");
+    background-size: 120px;
+    background-position: center;
+}
+#ruby {
+    background-image: url("http://www.clker.com/cliparts/W/z/S/M/Q/M/ruby-gemstone-hi.png");
+    background-size: 110px;
+    background-position: center;
+}
+#amethyst {
+    background-image: url("https://i.pinimg.com/236x/c7/8b/71/c78b712edc31887fa4a2ebe8a95fd3a7--zelda.jpg");
+    background-size: 100px;
+    background-position: center;
+}
+
+ 
