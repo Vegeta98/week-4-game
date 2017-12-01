@@ -13,6 +13,18 @@ h2 {
     display: inline-block;
 }
 
+h3 {
+    font-size: 30px;
+    color: gold;
+    background: black;
+}
+
+h4 {
+    font-size: 30px;
+    color: magenta;
+    background: teal;
+}
+
 .container {
     background: white;
     color: red;
